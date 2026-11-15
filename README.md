@@ -46,3 +46,30 @@ code, no paid APIs, no paywalls. It is the engine under Black Dragon AI
 - Free engines only. If a lane is a paywall, it does not ship (Keyz, 2026-11-15).
 - Runs under Black Dragon AI's FREE BETA (until Feb 28, 2027) — no paywalls anywhere in the chain.
 - Kandinsky 6.0 (MIT, synced audio) stays on the test list as a possible extra lane.
+
+## Hand to hand: Blender ↔ Unreal (Keyz, 2026-11-15)
+
+"Connect it to Blender for AI models, then Unreal for scenes, and the
+Studio to do video also in Blender — they both can work hand to hand."
+
+The pipeline is one loop, not three separate tools:
+
+1. **Blender → DragonDance (AI models inside Blender).** From a Blender
+   scene you fire a DragonDance generation (prompt + Ingredients
+   references); the clip renders on the free ComfyUI engine and lands
+   back in Blender as a movie texture, reference plate, or sky plate.
+   First version runs through the Blender MCP channel Muse already
+   drives; a native Blender panel follows.
+2. **Blender → Unreal (scenes).** Blender stays the art studio: hero
+   models, city dressing, cinematic renders. Unreal stays the playable
+   world: scenes assemble there, layout + textures shared, hero assets
+   cross by FBX. Nothing built in Blender is throwaway.
+3. **The Studio does video in Blender too.** Black Dragon Cinema
+   Studio's director presets (camera bodies, lenses, the 30 camera
+   moves) compile TWO ways: into DragonDance generation parameters for
+   AI clips, and into Blender camera rigs for 3D scenes — same shot
+   language across AI video and 3D video, so a scene can mix both.
+
+City of Sin is the first production on this loop: Google-capture
+reference → Blender build → Unreal scenes → DragonDance/Cinema Studio
+trailers and cutscenes.
