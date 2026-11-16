@@ -20,6 +20,7 @@ code, no paid APIs, no paywalls. It is the engine under Black Dragon AI
 | References | Ingredients library (Cinema Studio) | saved characters/props/locations fed into I2V + reference workflows |
 | Long form | Scenebuilder (Cinema Studio) | shots chained to 30s+ (Seedance does 30s in one pass; ours chains — stated honestly) |
 | Finish | ComfyUI upscale + grade nodes | 1080p finish, film grain, the GV look |
+| Edit (use-lane) | Gemini Omni Flash via Google Flow | conversational video editing / re-cutting of DragonDance clips — Google's closed model, reached FREE through Keyz's Flow credits (50/day, verified 2026-11-15); a use-lane like Veo, not an owned lane (added on Keyz's order 2026-11-15: "add omni to our build") |
 
 ## Seedance capability map
 
